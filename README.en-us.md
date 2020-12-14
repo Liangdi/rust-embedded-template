@@ -14,7 +14,7 @@ generic rust embedded project template
   install Embedded-Debug extension in vscode , and press `F5` to start debug
 * build firmware
   
-  run vscode task `Build firmware`
+  run vscode (shortcut `Ctrl + Alt + T`) task `Build firmware`
 
 ## Dev tools
 

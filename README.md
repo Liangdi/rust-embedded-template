@@ -14,7 +14,7 @@ generic rust embedded project template
   cargo install cargo-generate
   
   # usage
-  cargo generate https://github.com/Liangdi/rust-rv-embedded-template.git
+  cargo generate --git https://github.com/Liangdi/rust-rv-embedded-template.git -n your-project
 
   ```
 * cargo-edit
@@ -40,7 +40,7 @@ generic rust embedded project template
 ## 项目木板使用方法
 * 创建项目
     ```
-    cargo generate https://github.com/Liangdi/rust-rv-embedded-template.git your-project
+    cargo generate --git https://github.com/Liangdi/rust-rv-embedded-template.git -n your-project
 
     ```
 * 调试
@@ -48,7 +48,7 @@ generic rust embedded project template
   vscode 中安装了 Embedded-Debug 插件后, 按 `F5` 便可启动调试
 * 生成固件和烧录
   
-  执行 vscode 的任务 `Build firmware` 生成 bin 文件, 保存路径为 `build/release/firmware.bin`
+  执行 vscode (快捷键 `Ctrl + Alt + T`)的任务 `Build firmware` 生成 bin 文件, 保存路径为 `build/release/firmware.bin`
 
 ## Source Struct
 * .cargo

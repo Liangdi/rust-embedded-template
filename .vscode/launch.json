@@ -8,8 +8,6 @@
             "cwd": "${workspaceRoot}",
             "preLaunchTask": "preDebug",
             "type": "embedded-debug",
-            "serverpath": "openocd",
-            "gdbpath": "riscv32-unknown-elf-gdb",
             "request": "launch",
             "name": "Embedded Debug",
             "program": "${workspaceFolder}/build/debug/firmware.elf",
