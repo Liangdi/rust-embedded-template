@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            
+            "label": "preDebug",
+            "type": "shell",
+            "command":[
+                "cargo build",
+                " & cargo objcopy -- build/debug/firmware.elf"
+            ]
+        },
+        {
+            "label": "Build firmware",
+            "type": "shell",
+            "command":[
+                "cargo build --release",
+                " & cargo objcopy --release -- -O binary build/release/firmware.bin"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+release firmware output folder

@@ -1,0 +1,1 @@
+# linker scripts for mucs

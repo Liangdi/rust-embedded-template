@@ -1,0 +1,4 @@
+/target
+
+/build/debug/firmware.elf
+/build/release/firmware.bin
